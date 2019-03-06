@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "lib": [
+      "es2015"
+    ],
+    "outDir": "./dist",
+    "declaration": true
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}

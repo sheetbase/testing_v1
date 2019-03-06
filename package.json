@@ -1,0 +1,35 @@
+{
+   "name": "@sheetbase/testing",
+   "version": "0.0.1",
+   "description": "Tools for testing Sheetbase backend.",
+   "author": "Sheetbase",
+   "homepage": "https://sheetbase.net",
+   "license": "MIT",
+   "files": [
+      "dist"
+   ],
+   "main": "dist/index.js",
+   "typings": "dist/index.d.ts",
+   "scripts": {
+      "build": "tsc -p tsconfig.json",
+      "lint": "tslint --project tslint.json && echo 'All files pass linting.'"
+   },
+   "keywords": [
+      "google-apps-script",
+      "sheetbase",
+      "testing"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/sheetbase/testing.git"
+   },
+   "bugs": {
+      "url": "https://github.com/sheetbase/testing/issues"
+   },
+   "dependencies": {},
+   "devDependencies": {
+      "@types/node": "^10.12.8",
+      "tslint": "^5.11.0",
+      "typescript": "^3.1.6"
+   }
+}
