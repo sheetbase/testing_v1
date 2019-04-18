@@ -59,7 +59,7 @@ const { body } = browser.delete('/', { /* params */ }, { /* body */ });
 
 ## License
 
-This theme is released under the [MIT][license_url] license.
+This package is released under the [MIT][license_url] license.
 
 <!-- block:footer -->
 
