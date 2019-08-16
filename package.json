@@ -1,6 +1,6 @@
 {
    "name": "@sheetbase/testing",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "description": "Tools for testing Sheetbase backend.",
    "author": "Sheetbase",
    "homepage": "https://sheetbase.net",
@@ -28,8 +28,8 @@
    },
    "dependencies": {},
    "devDependencies": {
-      "@types/node": "^11.13.4",
-      "tslint": "^5.15.0",
-      "typescript": "^3.4.3"
+      "@types/node": "^12.7.2",
+      "tslint": "^5.18.0",
+      "typescript": "^3.5.3"
    }
 }
